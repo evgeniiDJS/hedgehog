@@ -274,13 +274,13 @@ body {
 .welcome__hedgehog-photo-right {
     position: absolute;
     background-image: url("../assets/png/image\ 3.png");
-    background-size: 279px 269px;
+    background-size: 491px 363px;
     background-repeat: no-repeat;
-    width: 279px;
-    height: 269px;
+    width: 428px;
+    height: 316px;
     z-index: 4;
-    left: 1070px;
-    top: 458px;
+    left: 1065px;
+    top: 334px;
 }
 
 
