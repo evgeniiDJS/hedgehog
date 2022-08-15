@@ -12,3 +12,298 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.header {
+    display: block;
+    height: 200px;
+    padding: 25px 0;
+    background-image: url("../assets/img/Fon.jpg");
+    background-repeat: no-repeat;
+}
+
+.header_container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.header__logo {
+    background-image: url("../assets/png/Logo.png");
+    width: 120.54px;
+    height: 56.07px;
+    background-repeat: no-repeat;
+}
+
+.navigation {
+    max-width: 720px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    transition: all 0.2s;
+    padding: 0 0 0 125px;
+}
+
+.menu__item {
+    list-style-type: none;
+}
+  
+.menu__link {
+    text-decoration: none;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #195557;
+    transition: all 0.2s;
+}
+  
+.menu__link:hover {
+    color: #70908B;
+}
+  
+.menu__link:active {
+    color: #710707;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone__icon {
+    background-image: url("../assets/png/Call.png");
+    background-size: 69px 69px;
+    background-repeat: no-repeat;
+    width: 69px;
+    height: 69px;
+}
+
+
+/* Welcome */
+.section {
+    padding: 75px 0;
+}
+
+.welcome {
+    background-image: url("../assets/img/Fon.jpg");
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.welcome__title {
+    text-align: center;
+}
+
+.welcome__heading {
+    background-image: url("../assets/png/Vector.png");
+    background-size: 443.41px 94.68px;
+    background-repeat: no-repeat;
+    width: 443.41px;
+    height: 94.68px;
+    margin: 0 auto;
+}
+
+
+.welcome__text {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #70908B;
+    padding: 19.32px 0 18px 0;
+}
+
+.welcome__text-description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #70908B;
+}
+
+.welcome__btn {
+    width: 328px;
+    height: 69px;
+}
+
+.welcome__btn_theme {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #70908B;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+    border-radius: 40px;
+    border: none;
+}
+
+.welcome__btn_position {
+    margin: 34px 0 0 0;
+}
+
+.welcome__health {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 127px 0 0 0;
+    text-align: center;
+    z-index: 0;
+    padding: 0 200px;
+}
+
+.welcome__item {
+    display: block;
+    width: 152px;
+    height: 303px;
+    text-align: center;
+}
+
+.welcome__item_top {
+    padding: 25px 0 0 0;
+}
+
+.circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle_one {
+    background: #FFEDCD;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+}
+
+.circle_two {
+    background: #E2F0DF;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+}
+
+.circle_three {
+    background: #70908B;
+    border: 1px solid #94AFAB;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+}
+
+.welcome__icons-hedgehog {
+    background-image: url("../assets/png/openmoji_hedgehog.png");
+    background-size: 72px 72px;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px; 
+}
+
+.welcome__icons-vaccination {
+    background-image: url("../assets/png/la_syringe-solid.png");
+    background-size: 46px 46px;
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 46px; 
+}
+
+.welcome__icons-love {
+    background-image: url("../assets/png/ant-design_heart-twotone.png");
+    background-size: 43px 43px;
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 43px; 
+}
+
+
+.welcome__text-first {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #195557;
+    padding: 30px 0 8px 0;
+}
+
+.welcome__text-last {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #195557;
+}
+
+.welcome__hedgehog-photo-left {
+    position: absolute;
+    background-image: url("../assets/png/1.png");
+    background-size: 549.22px 412.01px;
+    background-repeat: no-repeat;
+    width: 549.22px;
+    height: 412.01px;
+    z-index: 4;
+    left: -176px;
+    top: 328px;
+}
+
+.welcome__hedgehog-photo-right {
+    position: absolute;
+    background-image: url("../assets/png/image\ 3.png");
+    background-size:  294px 269px;
+    background-repeat: no-repeat;
+    width: 511px;
+    height: 331px;
+    z-index: 4;
+    left: 1126px;
+    top: 458px;
+}
+
+
+/* Discount */
+
+.discount__content {
+    display: flex;
+    justify-content: center;
+}
+
+.discount__item {
+    display: block;
+    width: 572px;
+    height: 410px;
+    display: flex;
+}
+
+.discount__item_colors-first {
+    background-color: #FFEDCD;
+    border-radius: 50px;
+}
+
+.discount__cols2-img1 {
+    background-image: url("../assets/png/63680734824-removebg-preview\ 1.png");
+    background-size:  363px 265px;
+    background-repeat: no-repeat;
+    width: 363px;
+    height: 265px;
+}
+.discount__cols2-img2 {}
