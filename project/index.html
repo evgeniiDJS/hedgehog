@@ -79,23 +79,127 @@
                         <div class="discount__cols1">
                             <h3 class="discount__titles">Ежик “Евгений”</h3>
                             <p class="discount__text">Очень любит сладости. <br>  Маленький сладкоежка=) <br> Мы называем его так <br> между собой. Ручной, <br> любит внимаение</p>
+                            <p class="discount__price-not">3 000 ₽</p>
                             <p class="discount__price">1 500 ₽</p>
                         </div>
                         <div class="discount__cols2-img1"></div>
+                        <div class="discount__plus"></div>
+                        <div class="discount__fone"></div>
                     </div>
-                    <div class="discount__item">
+                    <div class="discount__item discount__item_colors-last">
                         <div class="discount__cols1">
                             <h3 class="discount__titles">Ежик “Максим”</h3>
                             <p class="discount__text">Немного игривый и <br> задорный характер этого <br> друга никого не оставит <br> равнодушным!</p>
+                            <p class="discount__price-not">5 000 ₽</p>
                             <p class="discount__price">2 500 ₽</p>
                         </div>
                         <div class="discount__cols2-img2"></div>
+                        <div class="discount__plus"></div>
+                        <div class="discount__fone"></div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section application" id="application"></section>
+        <section class="section application" id="application">
+            <div class="container">
+                <div class="application__form">
+                    <form method="post" action="#" autocomplete="on">
+                        <fieldset style="border: none; padding: 30px 0 0 0;">
+                          <legend class="application__title">Заполните заявку и мы забронируем для Вас нового друга</legend>
+                          <div class="application__content">
+                            <div class="application__btn-pull">
+                                <p>
+                                    <input class="application__btn application__btn_size-first application__btn_green" type="submit" name="size" id="size_1" value="хочу ёжика для себя">
+                                    <label for="size_1"></label>
+                                  </p>
+                                  <p>
+                                    <input class="application__btn application__btn_size-medium application__btn_white" type="submit" name="size" id="size_2" value="хочу ёжика для детей">
+                                    <label for="size_2"></label>
+                                  </p>
+                                  <p>
+                                    <input class="application__btn application__btn_size-last application__btn_white" type="submit" name="size" id="size_3" value="хочу ёжика для разведения">
+                                    <label for="size_3"></label>
+                                  </p>
+                              </div>
+                              <div class="application__radio">
+                                <div class="radio__cols1">
+                                    <p class="radio_padding">
+                                        <input type="radio" name="size" id="size_4">
+                                        <label for="size_4">Мне нужен 1-2 ёжика</label>
+                                      </p>
+                                      <p>
+                                        <input type="radio" name="size" id="size_5">
+                                        <label for="size_5">Мне нужны 3-4 ёжика</label>
+                                      </p>
+                                </div>
+                                <div class="radio__cols2">
+                                    <p class="radio_padding">
+                                        <input type="radio" name="size" id="size_6">
+                                        <label for="size_6">Мне нужны 3 и более ёжиков</label>
+                                      </p>
+                                      <p>
+                                        <input type="radio" name="size" id="size_7">
+                                        <label for="size_7">Пока присматриваюсь</label>
+                                      </p>
+                                </div>
+                              </div>
+                          </div>
+                        </fieldset>
+                        <fieldset style="border: none; padding: 43px 0 0 0;">
+                            <div class="application__content-two">
+                                <p>
+                                    <input class="application__input" type="input" name="size" id="size_8" placeholder="Ваше имя">
+                                    <label for="size_8"></label>
+                                  </p>
+                                  <p>
+                                    <input class="application__input" type="input" name="size" id="size_9" placeholder="Ваш телефон">
+                                    <label for="size_9"></label>
+                                  </p>
+                                  <p>
+                                    <input class="application__input" type="input" name="size" id="size_10" placeholder="Ваш e-mail">
+                                    <label for="size_10"></label>
+                                  </p>
+                            </div>
+                              <p><textarea class="application__textarea" placeholder="Комментарий к заявке"></textarea></p>
+                        </fieldset>
+                        <input class="application__submit" type="submit" value="Купить ёжика">
+                      </form>
+                      <div class="application__count">
+                          <p class="count_first">У на осталось еще: 25 ёжиков</p>
+                          <p class="count_last">Торопитесь! Акция <br> действуtет до 26. 02. 2023</p>
+                      </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="header__logo footer_logo"></div>
+                <nav class="navigation">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a class="menu__link menu__link_white" href="#">Каталог</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link menu__link_white" href="#">O нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link menu__link_white" href="#">Контакты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link menu__link_white" href="#">Галерея</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__icons">
+                    <div class="icon_size facebook"></div>
+                    <div class="icon_size instagram"></div>
+                    <div class="icon_size twitter"></div>
+                </div>
+                <p class="footer__phone">+7 (965) 569-89-98</p>
+            </div>  
+        </div>
+    </footer>
 </body>
 </html>
