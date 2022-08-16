@@ -1,0 +1,135 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        width: 1250px;
+        margin: 0 auto;
+    }
+
+    .header {
+        z-index: 5;
+        display: block;
+        height: 85px;
+        width: 1300px;
+        padding: 15px 0;
+        background-image: url("../assets/320_px/Subtract.png");
+        background-repeat: no-repeat;
+        background-size: 1300px 100px;
+        
+    }
+
+    .phone__text {
+
+        display: none;
+    }
+
+    /* Welcome */
+
+    .welcome {
+        background-image: url("../assets/img/Fon.jpg");
+        height: 1000px;
+        width: 1300px;
+        background-repeat: no-repeat;
+        background-size: 1300px 1000px;
+        z-index: 5;
+        position: relative;
+    }
+
+    .welcome__heading {
+        background-image: url("../assets/png/Vector.png");
+        background-size: 202px 44px;
+        background-repeat: no-repeat;
+        width: 202px;
+        height: 44px;
+        margin: 0 auto;
+    }
+
+    .welcome__text {
+        z-index: 5;
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        padding: 12px 0 7px 0;
+    }
+
+    .welcome__text-description {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 146.4%;
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .welcome__btn {
+        width: 281px;
+        height: 59px;
+    }
+    
+    .welcome__btn_theme {
+        font-size: 14px;
+        line-height: 16px;
+        border: none;
+    }
+    
+    .welcome__btn_position {
+        margin: 3px 0 0 0;
+    }
+
+    .welcome__health {
+        width: 500px;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        gap: 50px 100px;
+        margin: 48px 0 0 0;
+        text-align: center;
+        z-index: 0;
+        margin: 0 auto;
+    }
+    
+    .welcome__item {
+        display: block;
+        width: 110px;
+        height: 220px;
+        text-align: center;
+    }
+    
+    .welcome__item_top {
+        padding: 25px 0 0 0;
+    }
+
+    .circle {
+        width: 92px;
+        height: 92px;
+    }
+
+    .welcome__text-first {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 18px 0 29px 0;
+    }
+
+    .welcome__text-last {
+        font-size: 10px;
+        line-height: 159.9%;
+    }
+
+    .welcome__hedgehog-photo-left {
+        display: none;
+    }
+
+    .welcome__hedgehog-photo-right {
+        position: absolute;
+        background-image: url("../assets/png/image\ 3.png");
+        background-size: 313px 203px;
+        background-repeat: no-repeat;
+        width: 313px;
+        height: 203px;
+        z-index: 4;
+        left: 685px;
+        top: 149px;
+    }
+}
