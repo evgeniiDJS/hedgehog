@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./assets/png/11111.png"/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/adptive_320_px.css">
+    <link rel="stylesheet" href="./css/burgerMenu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
     <title>myTask</title>
@@ -14,6 +16,30 @@
 <body>
     <header class="header">
         <div class="container header_container">
+           <!--  Burger Menu -->
+           <nav class="navbar">
+            <div class="container_burger-menu">
+              <div class="navbar__wrap">
+                <div class="hamb">
+                  <div class="hamb__field" id="hamb">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                  </div>
+                </div>
+                <ul class="menu_burger" id="menu">
+                  <li><a href="#">Каталог</a></li>
+                  <li><a href="#">о нас</a></li>
+                  <li><a href="#">контакты</a></li>
+                  <li><a href="#">галерея</a></li>
+                  <p class="footer__phone footer__phone_320px">+7 (965) 569-89-98</p>
+                </ul>
+              </div>
+            </div>
+          </nav>
+       
+      <div class="popup" id="popup"></div>
+          <!--  ---------------------- -->
             <div class="header__logo"></div>
             <nav class="navigation">
                 <ul class="menu">
@@ -127,7 +153,7 @@
                               <div class="application__radio">
                                 <div class="radio__cols1">
                                     <p class="radio_padding">
-                                        <input class="input_320px"  type="radio" name="size" id="size_4">
+                                        <input class="input_320px" checked type="radio" name="size" id="size_4">
                                         <label class="radio_320px" for="size_4">Мне нужен 1-2 ёжика</label>
                                       </p>
                                       <p>
@@ -204,5 +230,6 @@
             </div>  
         </div>
     </footer>
+    <script src="./js/burgerMenu.js"></script>
 </body>
 </html>
