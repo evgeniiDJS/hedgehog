@@ -154,12 +154,14 @@
    
     .hamb__field.active .bar:nth-child(1) {
         z-index: 200;
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(18px) rotate(45deg);
+        width: 150px;
     }
    
     .hamb__field.active .bar:nth-child(3) {
         z-index: 200;
-        transform: translateY(-8px) rotate(-45deg);
+        width: 150px;
+        transform: translateY(-18px) rotate(-45deg);
     }
    
     body.noscroll {
