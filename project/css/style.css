@@ -1,0 +1,641 @@
+body {
+    font-family: "Cormorant Infant", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.38px;
+    background-color: #ffffff;
+    color: #70908B;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.header {
+    z-index: 5;
+    display: block;
+    height: 100px;
+    padding: 25px 0;
+    background-image: url("../assets/img/Subtract.jpg");
+    background-repeat: no-repeat;
+}
+
+.header_container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    z-index: 5;
+}
+
+
+.header__logo {
+    z-index: 5;
+    background-image: url("../assets/png/Logo.png");
+    width: 120.54px;
+    height: 56.07px;
+    background-repeat: no-repeat;
+}
+
+.navigation {
+    max-width: 720px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    transition: all 0.2s;
+    padding: 0 0 0 125px;
+}
+
+.menu__item {
+    list-style-type: none;
+}
+  
+.menu__link {
+    text-decoration: none;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #195557;
+    transition: all 0.2s;
+}
+  
+.menu__link:hover {
+    color: #70908B;
+}
+  
+.menu__link:active {
+    color: #710707;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone__icon {
+    background-image: url("../assets/png/Call.png");
+    background-size: 69px 69px;
+    background-repeat: no-repeat;
+    width: 69px;
+    height: 69px;
+}
+
+
+/* Welcome */
+.section {
+    padding: 30px 0;
+}
+
+.welcome {
+    background-image: url("../assets/img/Fon.jpg");
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 5;
+    position: relative;
+}
+
+.welcome__title {
+    text-align: center;
+}
+
+.welcome__heading {
+    background-image: url("../assets/png/Vector.png");
+    background-size: 443.41px 94.68px;
+    background-repeat: no-repeat;
+    width: 443.41px;
+    height: 94.68px;
+    margin: 0 auto;
+}
+
+
+.welcome__text {
+    z-index: 5;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #70908B;
+    padding: 19.32px 0 18px 0;
+}
+
+.welcome__text-description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #70908B;
+}
+
+.welcome__btn {
+    width: 328px;
+    height: 69px;
+}
+
+.welcome__btn_theme {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #70908B;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+    border-radius: 40px;
+    border: none;
+}
+
+.welcome__btn_position {
+    cursor: pointer;
+    margin: 34px 0 0 0;
+}
+
+.welcome__health {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 127px 0 0 0;
+    text-align: center;
+    z-index: 5;
+    padding: 0 200px;
+}
+
+.welcome__item {
+    display: block;
+    width: 152px;
+    height: 303px;
+    text-align: center;
+}
+
+.welcome__item_top {
+    padding: 25px 0 0 0;
+}
+
+.circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle_one {
+    background: #FFEDCD;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+}
+
+.circle_two {
+    background: #E2F0DF;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+}
+
+.circle_three {
+    background: #70908B;
+    border: 1px solid #94AFAB;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+}
+
+.welcome__icons-hedgehog {
+    background-image: url("../assets/png/openmoji_hedgehog.png");
+    background-size: 72px 72px;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 72px; 
+}
+
+.welcome__icons-vaccination {
+    background-image: url("../assets/png/la_syringe-solid.png");
+    background-size: 46px 46px;
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 46px; 
+}
+
+.welcome__icons-love {
+    background-image: url("../assets/png/ant-design_heart-twotone.png");
+    background-size: 43px 43px;
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 43px; 
+}
+
+
+.welcome__text-first {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #195557;
+    padding: 30px 0 8px 0;
+}
+
+.welcome__text-last {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #195557;
+}
+
+.welcome__hedgehog-photo__items {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome__hedgehog-photo-left {
+    position: absolute;
+    background-image: url("../assets/png/1.png");
+    background-size: 549.22px 412.01px;
+    background-repeat: no-repeat;
+    width: 549.22px;
+    height: 412.01px;
+    z-index: 4;
+    left: -176px;
+    top: 328px;
+}
+
+.welcome__hedgehog-photo-right {
+    position: absolute;
+    background-image: url("../assets/png/image\ 3.png");
+    background-size: 491px 363px;
+    background-repeat: no-repeat;
+    width: 428px;
+    height: 316px;
+    z-index: 4;
+    left: 706px;
+    top: 334px;
+}
+
+
+/* Discount */
+
+.discount__content {
+    gap: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.discount__item {
+    position: relative;
+    display: block;
+    width: 540px;
+    height: 410px;
+    display: flex;
+}
+
+.discount__cols1 {
+    padding: 54px 0 0 59px;
+}
+
+.discount__titles {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #195557;
+}
+
+.discount__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    padding: 17px 0 5px 0;
+}
+
+.discount__price-not {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+    color: #C2CCCA;
+}
+
+.discount__price {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #195557;
+}
+
+.discount__item_colors-first {
+    background-color: #FFEDCD;
+    border-radius: 5%;
+    
+}
+
+.discount__cols2-img1 {
+    background-image: url("../assets/png/63680734824-removebg-preview\ 1.png");
+    background-size:  363px 265px;
+    background-repeat: no-repeat;
+    width: 363px;
+    height: 265px;
+}
+
+
+.discount__plus {
+    position: absolute;
+    background-image: url("../assets/png/eva_plus-fill.png");
+    background-size:  40px 40px;
+    background-repeat: no-repeat;
+    left: 502px;
+    top: 364px;
+    width: 40px;
+    height: 40px;
+    z-index: 6;
+    cursor: pointer;
+}
+
+.discount__fone {
+    z-index: 0;
+    position: absolute;
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    padding: 97px 0 0 48px;
+    left: 497px;
+    top: 346px;
+}
+
+
+.discount__cols2-img2 {
+    background-image: url("../assets/png/63680734824-removebg-preview\ 2.png");
+    background-size: 383.79px 280.17px;
+    background-repeat: no-repeat;
+    width: 520.79px;
+    height: 280.17px;
+}
+
+.discount__item_colors-last {
+    background-color: #E2F0DF;
+    border-radius: 5%;
+}
+
+
+/* application */
+
+.radio__cols1 {
+    padding: 0 53px 0 0;
+}
+
+.application__form {
+    display: block;
+    width: 1106px;
+    height: 484px;
+    margin: 0 auto;
+    background: #EAEEEF;
+    border-radius: 30px;
+    padding: 39px 53px 0 49px;
+}
+
+.application__title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #195557;
+    text-align: center;
+}
+
+.application__content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.application__btn-pull {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.application__btn {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 14px 0 0;
+}
+
+.application__btn_size-first {
+    width: 170px;
+    height: 49px;
+}
+
+.application__btn_size-medium {
+    width: 170px;
+    height: 49px;
+}
+
+.application__btn_size-last {
+    width: 199px;
+    height: 49px;
+}
+
+.application__btn_green {
+    background: #70908B;
+    border: 2px solid #70908B;
+    border-radius: 61px;
+    color: #FFFFFF;
+}
+
+.application__btn_white {
+    background: #FFFFFF;
+    border: 2px solid #70908B;
+    border-radius: 61px;
+    color: #70908B;
+}
+
+.application__radio {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.radio_padding {
+    padding: 0 0 14px 0;
+}
+
+.application__content-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.application__input {
+    width: 326px;
+    height: 62px;
+    background: #F8F8F8;
+    border-radius: 8px;
+    border: none;
+    padding: 23px 0 23px 23px;
+}
+
+.application__textarea {
+    width: 1030px;
+    height: 108px;
+    background: #F8F8F8;
+    border-radius: 8px;
+    border: none;
+    margin: 20px 0 0 0;
+    padding: 21px 0 0 28px;
+}
+
+.application__submit {
+    cursor: pointer;
+    display: block;
+    width: 328px;
+    height: 69px;
+    background: #70908B;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+    border-radius: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.application__count {
+    text-align: center;
+    padding: 60px 0 0 0; 
+    display: block;
+    position: relative;
+}
+
+.count_first {
+    margin: 0 auto;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #195557;
+    
+}
+
+.count_first::before {
+    background-image: url("../assets/png/11111.png");
+    background-size: 41px 41px;
+    background-repeat: no-repeat;
+    width: 41px;
+    height: 41px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 290px;
+    top: 51px;
+}   
+
+.count_last {
+    padding: 25px 0 0 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #195557;
+}
+
+/* footer */
+
+.footer {
+    padding: 50px 0 170px 0;
+    margin: 300px 0 0 0;
+    background-color: #70908B;
+    height: 100%;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    background-image: url("../assets/png/лого.png");
+    width: 120.54px;
+    height: 56.07px;
+    background-repeat: no-repeat;
+}
+
+
+.footer__icons {
+    display: flex;
+}
+.icon_size {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.facebook {
+    background-image: url("../assets/svg/typcn_social-facebook-circular.svg");
+}
+.instagram {
+    background-image: url("../assets/svg/typcn_social-instagram-circular.svg");
+}
+.twitter {
+    background-image: url("../assets/svg/typcn_social-twitter-circular.svg");
+}
+
+.footer__phone {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.menu__link_white {
+    color: #ffffff;
+}
+.menu__link_white:hover {
+    color: #1a9280;
+}
+
+.phone__text {
+    cursor: pointer;
+}
