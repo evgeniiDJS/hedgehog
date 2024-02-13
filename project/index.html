@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="icon" href="./assets/png/11111.png"/>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/adptive_320_px.css">
-    <link rel="stylesheet" href="./css/burgerMenu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
     <title>myTask</title>
@@ -16,30 +13,6 @@
 <body>
     <header class="header">
         <div class="container header_container">
-           <!--  Burger Menu -->
-           <nav class="navbar">
-            <div class="container_burger-menu">
-              <div class="navbar__wrap">
-                <div class="hamb">
-                  <div class="hamb__field" id="hamb">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                  </div>
-                </div>
-                <ul class="menu_burger" id="menu">
-                  <li><a href="#">Каталог</a></li>
-                  <li><a href="#">о нас</a></li>
-                  <li><a href="#">контакты</a></li>
-                  <li><a href="#">галерея</a></li>
-                  <p class="footer__phone footer__phone_320px">+7 (965) 569-89-98</p>
-                </ul>
-              </div>
-            </div>
-          </nav>
-       
-      <div class="popup" id="popup"></div>
-          <!--  ---------------------- -->
             <div class="header__logo"></div>
             <nav class="navigation">
                 <ul class="menu">
@@ -59,7 +32,6 @@
             </nav>
             <div class="phone">
                 <div class="phone__icon"></div>
-                <div class="phone__sale"></div>
                 <p class="phone__text">+7 (965) 569-89-98</p>
             </div>
         </div>
@@ -67,6 +39,10 @@
     <main class="main">
         <section class="section welcome" id="welcome">
             <div class="container">
+                <div class="welcome__hedgehog-photo__items">
+                    <div class="welcome__hedgehog-photo-left"></div>
+                    <div class="welcome__hedgehog-photo-right"></div>
+               </div>
                 <div class="welcome__title">
                     <div class="welcome__heading"></div>
                     <h3 class="welcome__text">тоже любят молоко</h3>
@@ -81,7 +57,6 @@
                         <h4 class="welcome__text-first">Разведение ежиков</h4>
                         <p class="welcome__text-last">Собственная ферма, уход <br> и содержание</p>
                     </div>
-                    <div class="welcome__hedgehog-photo-right-320px"></div>
                     <div class="welcome__item">
                         <div class="circle circle_two">
                             <div class="welcome__icons-vaccination"></div>
@@ -96,14 +71,13 @@
                         <h4 class="welcome__text-first">Любовь и забота</h4>
                         <p class="welcome__text-last">Каждому ежику мы дарим <br> много внимания</p>
                     </div>
-                    <div class="welcome__hedgehog-photo-left"></div>
-                    <div class="welcome__hedgehog-photo-right"></div>
+                  
                 </div>
             </div>
         </section>
         <section class="section discount" id="discount">
             <div class="container">
-                <div class="discount__content padding-320">
+                <div class="discount__content">
                     <div class="discount__item discount__item_colors-first">
                         <div class="discount__cols1">
                             <h3 class="discount__titles">Ежик “Евгений”</h3>
@@ -112,19 +86,19 @@
                             <p class="discount__price">1 500 ₽</p>
                         </div>
                         <div class="discount__cols2-img1"></div>
-                        <div class="discount__plus discount__item_display-320px"></div>
-                        <div class="discount__fone discount__item_display-320px"></div>
+                        <div class="discount__plus"></div>
+                        <div class="discount__fone"></div>
                     </div>
                     <div class="discount__item discount__item_colors-last">
-                        <div class="discount__cols1 discount__item_display-320px">
+                        <div class="discount__cols1">
                             <h3 class="discount__titles">Ежик “Максим”</h3>
                             <p class="discount__text">Немного игривый и <br> задорный характер этого <br> друга никого не оставит <br> равнодушным!</p>
                             <p class="discount__price-not">5 000 ₽</p>
                             <p class="discount__price">2 500 ₽</p>
                         </div>
-                        <div class="discount__cols2-img2 discount__item_display-320px"></div>
-                        <div class="discount__plus discount__item_display-320px"></div>
-                        <div class="discount__fone discount__item_display-320px"></div>
+                        <div class="discount__cols2-img2"></div>
+                        <div class="discount__plus"></div>
+                        <div class="discount__fone"></div>
                     </div>
                 </div>
             </div>
@@ -133,7 +107,7 @@
             <div class="container">
                 <div class="application__form">
                     <form method="post" action="#" autocomplete="on">
-                        <fieldset class="form_padding-320" style="border: none; padding: 30px 0 0 0;">
+                        <fieldset style="border: none; padding: 30px 0 0 0;">
                           <legend class="application__title">Заполните заявку и мы забронируем для Вас нового друга</legend>
                           <div class="application__content">
                             <div class="application__btn-pull">
@@ -153,22 +127,22 @@
                               <div class="application__radio">
                                 <div class="radio__cols1">
                                     <p class="radio_padding">
-                                        <input class="input_320px" checked type="radio" name="size" id="size_4">
-                                        <label class="radio_320px" for="size_4">Мне нужен 1-2 ёжика</label>
+                                        <input type="radio" name="size" id="size_4">
+                                        <label for="size_4">Мне нужен 1-2 ёжика</label>
                                       </p>
                                       <p>
-                                        <input class="input_320px" type="radio" name="size" id="size_5">
-                                        <label class="radio_320px" for="size_5">Мне нужны 3-4 ёжика</label>
+                                        <input type="radio" name="size" id="size_5">
+                                        <label for="size_5">Мне нужны 3-4 ёжика</label>
                                       </p>
                                 </div>
                                 <div class="radio__cols2">
                                     <p class="radio_padding">
-                                        <input class="input_320px" type="radio" name="size" id="size_6">
-                                        <label class="radio_320px" for="size_6">Мне нужны 3 и более ёжиков</label>
+                                        <input type="radio" name="size" id="size_6">
+                                        <label for="size_6">Мне нужны 3 и более ёжиков</label>
                                       </p>
                                       <p>
-                                        <input class="input_320px" type="radio" name="size" id="size_7">
-                                        <label class="radio_320px" for="size_7">Пока присматриваюсь</label>
+                                        <input type="radio" name="size" id="size_7">
+                                        <label for="size_7">Пока присматриваюсь</label>
                                       </p>
                                 </div>
                               </div>
@@ -230,6 +204,5 @@
             </div>  
         </div>
     </footer>
-    <script src="./js/burgerMenu.js"></script>
 </body>
 </html>
