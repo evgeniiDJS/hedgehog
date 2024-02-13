@@ -29,7 +29,11 @@ body {
 
 .header_container {
     display: flex;
+<<<<<<< HEAD
     justify-content:space-around;
+=======
+    justify-content:space-between;
+>>>>>>> origin/gh-pages
     align-items: center;
     z-index: 5;
 }
@@ -87,6 +91,13 @@ body {
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+.phone__sale {
+    display: none;
+}
+
+>>>>>>> origin/gh-pages
 .phone__icon {
     background-image: url("../assets/png/Call.png");
     background-size: 69px 69px;
@@ -165,17 +176,27 @@ body {
 }
 
 .welcome__btn_position {
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> origin/gh-pages
     margin: 34px 0 0 0;
 }
 
 .welcome__health {
+<<<<<<< HEAD
     position: relative;
+=======
+>>>>>>> origin/gh-pages
     display: flex;
     justify-content: space-evenly;
     margin: 127px 0 0 0;
     text-align: center;
+<<<<<<< HEAD
     z-index: 5;
+=======
+    z-index: 0;
+>>>>>>> origin/gh-pages
     padding: 0 200px;
 }
 
@@ -261,12 +282,15 @@ body {
     color: #195557;
 }
 
+<<<<<<< HEAD
 .welcome__hedgehog-photo__items {
     position: absolute;
     display: flex;
     justify-content: space-between;
 }
 
+=======
+>>>>>>> origin/gh-pages
 .welcome__hedgehog-photo-left {
     position: absolute;
     background-image: url("../assets/png/1.png");
@@ -284,26 +308,43 @@ body {
     background-image: url("../assets/png/image\ 3.png");
     background-size: 491px 363px;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     width: 428px;
     height: 316px;
     z-index: 4;
     left: 706px;
     top: 334px;
+=======
+    width: 405px;
+    height: 316px;
+    z-index: 4;
+    left: 940px;
+    top: 318px;
+>>>>>>> origin/gh-pages
 }
 
 
 /* Discount */
 
 .discount__content {
+<<<<<<< HEAD
     gap: 8px;
     display: flex;
     justify-content: space-around;
+=======
+    display: flex;
+    justify-content: space-evenly;
+>>>>>>> origin/gh-pages
 }
 
 .discount__item {
     position: relative;
     display: block;
+<<<<<<< HEAD
     width: 540px;
+=======
+    width: 572px;
+>>>>>>> origin/gh-pages
     height: 410px;
     display: flex;
 }
@@ -364,29 +405,49 @@ body {
     height: 265px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/gh-pages
 .discount__plus {
     position: absolute;
     background-image: url("../assets/png/eva_plus-fill.png");
     background-size:  40px 40px;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     left: 502px;
+=======
+    left: 527px;
+>>>>>>> origin/gh-pages
     top: 364px;
     width: 40px;
     height: 40px;
     z-index: 6;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> origin/gh-pages
 }
 
 .discount__fone {
     z-index: 0;
+<<<<<<< HEAD
+=======
+    transform: rotate(45deg);
+>>>>>>> origin/gh-pages
     position: absolute;
     background-color: #ffffff;
     width: 40px;
     height: 40px;
+<<<<<<< HEAD
     padding: 97px 0 0 48px;
     left: 497px;
     top: 346px;
+=======
+    padding: 117px 0 0 55px;
+    left: 523px;
+    top: 336px;
+>>>>>>> origin/gh-pages
 }
 
 
@@ -394,7 +455,11 @@ body {
     background-image: url("../assets/png/63680734824-removebg-preview\ 2.png");
     background-size: 383.79px 280.17px;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     width: 520.79px;
+=======
+    width: 383.79px;
+>>>>>>> origin/gh-pages
     height: 280.17px;
 }
 
@@ -412,7 +477,11 @@ body {
 
 .application__form {
     display: block;
+<<<<<<< HEAD
     width: 1106px;
+=======
+    width: 1197px;
+>>>>>>> origin/gh-pages
     height: 484px;
     margin: 0 auto;
     background: #EAEEEF;
@@ -493,7 +562,11 @@ body {
 }
 
 .application__input {
+<<<<<<< HEAD
     width: 326px;
+=======
+    width: 352px;
+>>>>>>> origin/gh-pages
     height: 62px;
     background: #F8F8F8;
     border-radius: 8px;
@@ -502,7 +575,11 @@ body {
 }
 
 .application__textarea {
+<<<<<<< HEAD
     width: 1030px;
+=======
+    width: 1096px;
+>>>>>>> origin/gh-pages
     height: 108px;
     background: #F8F8F8;
     border-radius: 8px;
@@ -512,7 +589,10 @@ body {
 }
 
 .application__submit {
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> origin/gh-pages
     display: block;
     width: 328px;
     height: 69px;
@@ -556,7 +636,11 @@ body {
     content: "";
     display: block;
     position: absolute;
+<<<<<<< HEAD
     left: 290px;
+=======
+    left: 349px;
+>>>>>>> origin/gh-pages
     top: 51px;
 }   
 
@@ -633,9 +717,13 @@ body {
     color: #ffffff;
 }
 .menu__link_white:hover {
+<<<<<<< HEAD
     color: #1a9280;
 }
 
 .phone__text {
     cursor: pointer;
+=======
+    color: #94AFAB;
+>>>>>>> origin/gh-pages
 }
