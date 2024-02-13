@@ -29,7 +29,7 @@ body {
 
 .header_container {
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     z-index: 5;
 }
@@ -165,15 +165,17 @@ body {
 }
 
 .welcome__btn_position {
+    cursor: pointer;
     margin: 34px 0 0 0;
 }
 
 .welcome__health {
+    position: relative;
     display: flex;
     justify-content: space-evenly;
     margin: 127px 0 0 0;
     text-align: center;
-    z-index: 0;
+    z-index: 5;
     padding: 0 200px;
 }
 
@@ -259,6 +261,12 @@ body {
     color: #195557;
 }
 
+.welcome__hedgehog-photo__items {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
 .welcome__hedgehog-photo-left {
     position: absolute;
     background-image: url("../assets/png/1.png");
@@ -279,7 +287,7 @@ body {
     width: 428px;
     height: 316px;
     z-index: 4;
-    left: 1065px;
+    left: 706px;
     top: 334px;
 }
 
@@ -287,14 +295,15 @@ body {
 /* Discount */
 
 .discount__content {
+    gap: 8px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .discount__item {
     position: relative;
     display: block;
-    width: 572px;
+    width: 540px;
     height: 410px;
     display: flex;
 }
@@ -355,28 +364,29 @@ body {
     height: 265px;
 }
 
+
 .discount__plus {
     position: absolute;
     background-image: url("../assets/png/eva_plus-fill.png");
     background-size:  40px 40px;
     background-repeat: no-repeat;
-    left: 527px;
+    left: 502px;
     top: 364px;
     width: 40px;
     height: 40px;
     z-index: 6;
+    cursor: pointer;
 }
 
 .discount__fone {
     z-index: 0;
-    transform: rotate(45deg);
     position: absolute;
     background-color: #ffffff;
     width: 40px;
     height: 40px;
-    padding: 117px 0 0 55px;
-    left: 523px;
-    top: 336px;
+    padding: 97px 0 0 48px;
+    left: 497px;
+    top: 346px;
 }
 
 
@@ -384,7 +394,7 @@ body {
     background-image: url("../assets/png/63680734824-removebg-preview\ 2.png");
     background-size: 383.79px 280.17px;
     background-repeat: no-repeat;
-    width: 383.79px;
+    width: 520.79px;
     height: 280.17px;
 }
 
@@ -402,7 +412,7 @@ body {
 
 .application__form {
     display: block;
-    width: 1197px;
+    width: 1106px;
     height: 484px;
     margin: 0 auto;
     background: #EAEEEF;
@@ -483,7 +493,7 @@ body {
 }
 
 .application__input {
-    width: 352px;
+    width: 326px;
     height: 62px;
     background: #F8F8F8;
     border-radius: 8px;
@@ -492,7 +502,7 @@ body {
 }
 
 .application__textarea {
-    width: 1096px;
+    width: 1030px;
     height: 108px;
     background: #F8F8F8;
     border-radius: 8px;
@@ -502,6 +512,7 @@ body {
 }
 
 .application__submit {
+    cursor: pointer;
     display: block;
     width: 328px;
     height: 69px;
@@ -545,7 +556,7 @@ body {
     content: "";
     display: block;
     position: absolute;
-    left: 349px;
+    left: 290px;
     top: 51px;
 }   
 
@@ -622,5 +633,9 @@ body {
     color: #ffffff;
 }
 .menu__link_white:hover {
-    color: #94AFAB;
+    color: #1a9280;
+}
+
+.phone__text {
+    cursor: pointer;
 }
