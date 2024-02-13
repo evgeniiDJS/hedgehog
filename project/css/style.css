@@ -279,17 +279,7 @@ body {
     top: 328px;
 }
 
-.welcome__hedgehog-photo-right {
-    position: absolute;
-    background-image: url("../assets/png/image\ 3.png");
-    background-size: 491px 363px;
-    background-repeat: no-repeat;
-    width: 428px;
-    height: 316px;
-    z-index: 4;
-    left: 706px;
-    top: 334px;
-}
+
 
 
 /* Discount */
@@ -493,6 +483,7 @@ body {
 }
 
 .application__input {
+    outline: none;
     width: 326px;
     height: 62px;
     background: #F8F8F8;
@@ -502,6 +493,7 @@ body {
 }
 
 .application__textarea {
+    outline: none;
     width: 1030px;
     height: 108px;
     background: #F8F8F8;
